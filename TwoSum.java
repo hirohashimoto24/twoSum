@@ -2,7 +2,7 @@ public class TwoSum {
 
     public static void main(String[] args) {
 
-        // Test case 1
+        // Test 1
         int[] result = twoSum(new int[]{2, 7, 11, 15}, 9);
         if (result != null) {
             System.out.println("[" + result[0] + ", " + result[1] + "]");
@@ -10,7 +10,7 @@ public class TwoSum {
             System.out.println("target not found");
         }
 
-        // Test case 2
+        // Test 2
         result = twoSum(new int[]{3, 2, 4}, 6);
         if (result != null) {
             System.out.println("[" + result[0] + ", " + result[1] + "]");
@@ -18,7 +18,7 @@ public class TwoSum {
             System.out.println("target not found");
         }
 
-        // Test case 3
+        // Test 3
         result = twoSum(new int[]{2, 3, 6, 6}, 20);
         if (result != null) {
             System.out.println("[" + result[0] + ", " + result[1] + "]");
@@ -36,7 +36,6 @@ public class TwoSum {
                 }
             }
         }
-        // If no pair is found that adds up to the target, return null
         return null;
     }
 }
